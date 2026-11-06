@@ -7,3 +7,4 @@ Live at https://kloungesiquijor.com
 - `index.html` is the whole page (one file, no build step needed to serve).
 - `media/` holds the photos and videos.
 - `tools/build_public.py` rebuilds this folder from the editable draft page.
+- Hosted on GitHub Pages (branch `main`, root) with the custom domain in `CNAME`; DNS is on Cloudflare (CNAME `@` and `www` → `kloungesiquijor.github.io`, DNS only).
